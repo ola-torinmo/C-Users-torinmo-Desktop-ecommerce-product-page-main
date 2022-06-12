@@ -1,0 +1,11 @@
+
+.container{
+    display: flex;
+    padding-top: 5%;
+}
+.container img{
+    max-width: 100%;
+    
+    
+}
+

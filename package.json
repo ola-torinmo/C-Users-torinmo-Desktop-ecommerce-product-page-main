@@ -1,0 +1,24 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ola-torinmo/C-Users-torinmo-Desktop-ecommerce-product-page-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ola-torinmo/C-Users-torinmo-Desktop-ecommerce-product-page-main/issues"
+  },
+  "homepage": "https://github.com/ola-torinmo/C-Users-torinmo-Desktop-ecommerce-product-page-main#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
