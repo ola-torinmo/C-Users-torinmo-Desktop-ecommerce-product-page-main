@@ -1,11 +1,66 @@
 
 .container{
-    display: flex;
-    padding-top: 5%;
+    /* display: flex; */
+    padding-top: 3.5%;
+    background-color: hsl(0, 0%, 100%);
+
+
+    
+    
 }
 .container img{
     max-width: 100%;
     
     
+    
 }
+.container h6{
+    color: hsl(26, 100%, 55%);
+}
+mark{
+    color: hsl(26, 100%, 55%);
+    border-radius: 15%;
+    
+}
+hr{
+    width: 90%;
+    
+}
+.navbar-brand{
+    color: black !important;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    font-size: 27px;
+    padding-right: 30px;
+    padding-left: 25px;
+}
+.navbar-toggler-icon{
+    color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+.navbar-nav > li{
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 14px;
+  }
+  .rounded{
+    border-radius: 5% !important;
+
+    
+  }
+  .btn {
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    
+
+  }
+  .box1{
+    
+    
+  }
+  .box2{
+    
+  }
+  
 

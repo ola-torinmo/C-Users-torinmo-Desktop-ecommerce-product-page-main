@@ -2,33 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | E-commerce product page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
    
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-light navbar-expand-md bg-white" style="background-color: hsl(0, 0%, 100%);">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Sneaker</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"> 
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
+    <a class="navbar-brand mr-auto" href="#">sneakers</a>
+      
+    
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"> Collections</a>
+            <a class="nav-link " aria-current="page" href="#"> Collections</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Men</a>
@@ -47,57 +50,87 @@
     </div>
   </nav>
   
+  <hr >
+  
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-4">
-        <div class="d-block img-fluid">
-          <img src="./images/image-product-1.jpg" class="rounded mx-auto d-block" >
+  <div class="container ">
+      <div class="row justify-content-around ">
+        <div class="col-12 col-md-4  ">
+          <div class="box1">
+            <div class="d-block img-fluid ">
+              <img src="./images/image-product-1.jpg" class="rounded" >
+  
+            </div>
+  
+            <div class="d-flex  justify-content-between">
+              <div class="p-2  "><img src="./images/image-product-1-thumbnail.jpg" class="rounded d-none d-sm-block"></div>
+              <div class="p-2"><img src="./images/image-product-2-thumbnail.jpg"   class="rounded d-none d-sm-block" ></div>
+              <div class="p-2"><img src="./images/image-product-3-thumbnail.jpg"   class="rounded d-none d-sm-block" ></div>
+              <div class="p-2"><img src="./images/image-product-4-thumbnail.jpg"   class="rounded d-none d-sm-block"></div>
+            </div>
+          </div>
+          
 
         </div>
+        <div class="col-12 col-md-4 ">
+          <div class="box2">
+         <div class="t1">
+          <h6> Sneaker Company</h6>
 
-        <div class="d-flex  justify-content-between">
-          <div class="p-2  "><img src="./images/image-product-1-thumbnail.jpg" class="rounded mx-auto d-block"></div>
-          <div class="p-2"><img src="./images/image-product-2-thumbnail.jpg" class="rounded mx-auto d-block" ></div>
-          <div class="p-2"><img src="./images/image-product-3-thumbnail.jpg" class="rounded mx-auto d-block" ></div>
-          <div class="p-2"><img src="./images/image-product-4-thumbnail.jpg" class="rounded mx-auto d-block"></div>
+          <h1>Fall Limited Edition Sneakers</h1>
+
+          <h5>
+            <small class="text-muted">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+            </small>
+          </h5>
+         </div>
+         <div class="d-flex ">
+          <h3 class="p-2" >$125.00  </h3>
+           <mark class="p-2 align-self-center ">50%</mark>
+         </div>
+
+          <h5>
+            <small class="text-muted">
+              <del>$250.00</del>
+
+            </small>
+          </h5>
+
+          <div class="d-md-inline-flex">
+            
+            <div class="col-12 col-sm-3">0</div>
+            <div class="col-12 col-md-9">
+              
+              <a  class="btn  btn-block "  id=""> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+
+          
+            
+
+            </div>
+          </div>
+
+          
+         
+
         </div>
+        
         
 
       </div>
-      <div class="col-12 col-md-4">
-        Sneaker Company
-
-        Fall Limited Edition Sneakers
-
-       These low-profile sneakers are your perfect casual wear companion. Featuring a 
-        durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-        $125.00
-        50%
-        $250.00
-
-        0
-        Add to cart
-
-      </div>
-      
+    
       
 
     </div>
-   
-    
-
   </div>
 
  
   
   
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  
 
    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
