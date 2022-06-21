@@ -19,111 +19,139 @@
    
 </head>
 <body>
+  <!-- navbar -->
   <nav class="navbar navbar-light navbar-expand-md bg-white" style="background-color: hsl(0, 0%, 100%);">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"> 
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand mr-auto" href="#">sneakers</a>
-      
-    
-      <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav">
         
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#"> Collections</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Men</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Women</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ">Contact</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#"> Collections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Contact</a>
+        </li>
+      </ul>
+      
     </div>
+    <span class="navbar-text  ">
+      <a  id="cartBtn">
+        <img src="./images/icon-cart.svg" alt="">
+      </a>
+      <a >
+        <img src="./images/image-avatar.png" style="width: 2.5rem;" class="ml-4">
+      </a>
+
+
+
+    </span>
+
+
+
+      
+    </div>
+    
   </nav>
   
   <hr >
   
 
   <div class="container ">
-      <div class="row justify-content-around ">
-        <div class="col-12 col-md-4  ">
-          <div class="box1">
-            <div class="d-block img-fluid ">
-              <img src="./images/image-product-1.jpg" class="rounded" >
-  
-            </div>
-  
-            <div class="d-flex  justify-content-between">
-              <div class="p-2  "><img src="./images/image-product-1-thumbnail.jpg" class="rounded d-none d-sm-block"></div>
-              <div class="p-2"><img src="./images/image-product-2-thumbnail.jpg"   class="rounded d-none d-sm-block" ></div>
-              <div class="p-2"><img src="./images/image-product-3-thumbnail.jpg"   class="rounded d-none d-sm-block" ></div>
-              <div class="p-2"><img src="./images/image-product-4-thumbnail.jpg"   class="rounded d-none d-sm-block"></div>
-            </div>
-          </div>
-          
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-5 ">
+        <div class="card "  >
+          <div class="d-block img-fluid ">
+            <img src="./images/image-product-1.jpg" class="rounded" >
 
-        </div>
-        <div class="col-12 col-md-4 ">
-          <div class="box2">
-         <div class="t1">
-          <h6> Sneaker Company</h6>
-
-          <h1>Fall Limited Edition Sneakers</h1>
-
-          <h5>
-            <small class="text-muted">
-                These low-profile sneakers are your perfect casual wear companion. Featuring a 
-                durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-            </small>
-          </h5>
-         </div>
-         <div class="d-flex ">
-          <h3 class="p-2" >$125.00  </h3>
-           <mark class="p-2 align-self-center ">50%</mark>
-         </div>
-
-          <h5>
-            <small class="text-muted">
-              <del>$250.00</del>
-
-            </small>
-          </h5>
-
-          <div class="d-md-inline-flex">
-            
-            <div class="col-12 col-sm-3">0</div>
-            <div class="col-12 col-md-9">
-              
-              <a  class="btn  btn-block "  id=""> <i class="fa fa-shopping-cart"></i> Add to cart</a>
-
-          
-            
-
-            </div>
           </div>
 
-          
-         
-
+          <div class="d-flex  justify-content-between">
+            <div class="p-2  "><img src="./images/image-product-1-thumbnail.jpg" class="rounded d-none d-sm-block"></div>
+            <div class="p-2"><img src="./images/image-product-2-thumbnail.jpg"   class="rounded d-none d-sm-block" ></div>
+            <div class="p-2"><img src="./images/image-product-3-thumbnail.jpg"   class="rounded d-none d-sm-block" ></div>
+            <div class="p-2"><img src="./images/image-product-4-thumbnail.jpg"   class="rounded d-none d-sm-block"></div>
+          </div>
         </div>
-        
-        
+      </div>
+
+      <div class="col-12 col-md-1">
 
       </div>
-    
-      
 
+        
+          <div class="col-12 col-md-4 mt-5">
+            <div class="card ">
+              <h6 class="card-title  ml-4"> Sneaker Company</h6>
+              <div class="card-body">
+                <h1>Fall Limited Edition Sneakers</h1>
+
+                <h5>
+                  <small class="text-muted">
+                      These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                      durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+                  </small>
+                </h5>
+              </div>
+              <div class="d-flex ">
+                <h3 class="p-2 ml-3" >$125.00  </h3>
+                <mark class="p-2 align-self-center ">50%</mark>
+              </div>
+              <h5 class="ml-4">
+                <small class="text-muted">
+                  <del>$250.00</del>
+
+                </small>
+              </h5>
+
+              <div class="d-md-inline-flex ">
+                
+                <div class="col-12 col-sm-3">
+                  <!-- <div class="quantity-number-v2 clearfix">
+                    <div class="quantity-wrapper">
+                      <i class="add-down add-action fa fa-minus"></i>
+                      <input id="prodQuantity" type="text" name="quantity" value="0" />
+                      <i class="add-up add-action fa fa-plus"></i>
+
+
+                    </div>
+                    <div id="stock" class="text-center"></div>
+
+                  </div> -->
+                  
+                  
+                </div>
+                <div class="col-12 col-md-9">
+                  
+                  <a  class="btn  btn-block "  id=""> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+
+              
+                
+
+                </div>
+                      
+                    </div>
+            </div>
+  
+          </div>
+        
+
+      
     </div>
+     
   </div>
 
  

@@ -55,12 +55,20 @@ hr{
     
 
   }
-  .box1{
-    
-    
-  }
-  .box2{
+  .card{
+    border: none;
     
   }
+  /* #prodQuantity{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #222;
+  }
+  .quantity-number-v2 i{
+    padding: 6.8px 10px;
+    border: 1px solid #222;
+  }
+  .quantity-number-v2{
+    margin: 50px;} */
   
 
