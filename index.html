@@ -119,18 +119,21 @@
 
               <div class="d-md-inline-flex ">
                 
-                <div class="col-12 col-sm-3">
-                  <!-- <div class="quantity-number-v2 clearfix">
-                    <div class="quantity-wrapper">
-                      <i class="add-down add-action fa fa-minus"></i>
-                      <input id="prodQuantity" type="text" name="quantity" value="0" />
-                      <i class="add-up add-action fa fa-plus"></i>
-
-
-                    </div>
-                    <div id="stock" class="text-center"></div>
-
-                  </div> -->
+                <div class="col-12 col-sm-6">
+                  
+                  <div class="row mt-1">
+                    <div class="col-sm">
+                      <div class="input-group ">
+                          <div class="input-group-prepend">
+                              <button class="btn  btn-sm" id="minus-btn"><i class="fa fa-minus"></i></button>
+                          </div>
+                          <input type="number" id="qty_input" class="form-control form-control-sm" value="1" min="1">
+                          <div class="input-group-prepend">
+                              <button class="btn btn-sm" id="plus-btn"><i class="fa fa-plus"></i></button>
+                          </div>
+                      </div>
+                  </div>
+                </div>
                   
                   
                 </div>
@@ -164,5 +167,6 @@
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="./script.js"></script>
 </body>
 </html>

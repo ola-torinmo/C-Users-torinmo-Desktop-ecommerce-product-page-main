@@ -72,3 +72,17 @@ hr{
     margin: 50px;} */
   
 
+#minus-btn, #plus-btn, #qty_input{
+  background-color: hsl(220, 30%, 96%);
+  border: none;
+}
+
+input { 
+  text-align: center; 
+}
+.fa-minus ,.fa-plus {
+ color:  hsl(26, 100%, 55%);
+}
+h6,h3{
+  font-family: 'Kumbh Sans', sans-serif !important;
+}
