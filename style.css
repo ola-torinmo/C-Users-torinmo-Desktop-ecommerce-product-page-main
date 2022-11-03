@@ -22,6 +22,12 @@ mark{
     border-radius: 15%;
     
 }
+@font-face {
+  font-family: kumb;
+  src: url(./font/KumbhSans-Bold.ttf);
+}
+
+
 hr{
     width: 90%;
     
@@ -59,6 +65,9 @@ hr{
     border: none;
     
   }
+  .navbar-brand,h1,h2,h3{
+    font-family: kumb;
+  }
  
 #minus-btn, #plus-btn, #qty_input{
   background-color: hsl(220, 30%, 96%);
@@ -71,9 +80,7 @@ input {
 .fa-minus ,.fa-plus {
  color:  hsl(26, 100%, 55%);
 }
-h6,h3{
-  font-family: 'Kumbh Sans', sans-serif !important;
-}
+
 /* .navbar-text img::before {
   content: '';
   position: absolute;
